@@ -1,5 +1,17 @@
-img {
-  width: 100%;
+@media (max-aspect-ratio: 1/1) {
+  img {
+    height: 100%;
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (min-aspect-ratio: 1/1) {
+  img {
+    width: 100%;
+  }
 }
 
 .header {
@@ -8,6 +20,7 @@ img {
   position: fixed;
   top: 30%;
   width: 100%;
+  margin: auto;
   text-align: center;
   font-size: 400%;
   font-family: cursive;
