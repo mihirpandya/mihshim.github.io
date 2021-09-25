@@ -21,7 +21,7 @@ body {
 
 .header {
   padding: 10px 16px;
-  color: #f1f1f1;
+  color: #e45757;
   position: fixed;
   top: 30%;
   width: 100%;
@@ -29,6 +29,6 @@ body {
   text-align: center;
   font-size: 400%;
   font-family: cursive;
-  text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
+  text-shadow: 0 0 5px white, 0 0 5px white;
 }
 
